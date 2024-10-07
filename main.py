@@ -1,6 +1,6 @@
 def calcular_imc(peso, altura):
     try:
-        imc = peso / (altura ** 2)
+        imc = peso / (altura ** 2) # ** significa que é ao quadrado
         return imc
     except ZeroDivisionError:
         return "A altura não pode ser zero!"
